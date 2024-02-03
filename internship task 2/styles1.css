@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #52454d;
+  }
+  
+  #stopwatch {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #52454d;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #stopwatch-name {
+    margin-top: 100px;
+    color: #fff;
+  }
+  
+  #display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #52454d;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid #fefdfe;
+    position: relative;
+  }
+  
+  #display {
+    font-size: 2em;
+    margin: 10px;
+   
+    border: 2px solid #fefdfe;
+    border-radius: 50%;
+    width: 300px; /* Adjust the width and height based on your preference */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #52454d;
+    color: #fcfafa;
+  }
+  
+  #icon-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #52454d;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+
+  }
+  
+  button {
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 50px;
+    background-color: #52454d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    box-sizing: border-box; 
+  }
+  
+  button i {
+    font-size: 1.5em;
+    color: #fff;
+    width: 80%; /* Set the width based on your preference */
+    height: 80%; /* Set the height based on your preference */
+    line-height: 60px;
+    border: 3px solid #fff; /* Add a border around the icon with the same radius */
+    border-radius: 50%;
+    display: block;  
+  }
+  
+  #pause {
+    background-color: #f44336;
+  }
+  
+  #reset {
+    background-color: #2196F3;
+  }
+  
+  #stopwatch h1 {
+    margin-top: 10px;
+  }
+
+  #lapList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #lapList li {
+    background-color: #52454d;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
