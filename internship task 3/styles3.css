@@ -1,0 +1,69 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #11a9ea;
+}
+
+#game-container {
+  text-align: center;
+  background-color: #11a9ea;
+  display: flex;
+  flex-direction: column; /* Display children elements in a column */
+  align-items: center;
+  padding: 20px;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  color:rgb(252, 252, 253);
+}
+
+#reset-btn {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#game-container h1 {
+    color: rgb(252, 252, 253); /* Set your preferred text color here */
+  }
+
+#status {
+    color: rgb(252, 252, 253); /* Set your preferred text color for turns here */
+  }
+  
+#status.winner {
+    color: rgb(252, 252, 253); /* Set your preferred text color for wins here */
+  }
+  
+#winsX,
+#winsO,
+#draws {
+  color:rgb(252, 252, 253); /* Set your preferred text color for the scoreboard here */
+}
+
+#scoreboard {
+    display: flex;
+    flex-direction: column; /* Display scoreboard elements in a column */
+    align-items: flex-end; /* Align the scoreboard to the right */
+   
+  }
+  
